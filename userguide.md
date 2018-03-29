@@ -1,5 +1,12 @@
 # The Talking Throne: A User Guide
 
+## The ideal sequence of a sitting
+* Someone picks their title and assembles a board from a __noun__, __adjective__ and __place__.
+* That someone __walks the red carpet__, holding their board up __nice and straight__, in __clear view__ of the throne's backrest.
+* They __continue to hold up their board__ as their __foot hits the bottom step__ of the dias.
+* They __sit down nice and heavily__ on the seat sensor, squishing the black flat plastic pad and __triggering an announcement__.
+* Dramatic announcement rings out around the room. All words have been correctly read. Delight, rejoicing, and applause.
+
 ## How does it work?
 
 * There is an __RFID antenna__ in the backrest of the throne. You can see this if you have a look around the back - it's the flat box whose edges you can make out under the upholstery.
@@ -19,13 +26,6 @@
 ⚠️ While no-one is sitting in the throne, it's __scanning for tags__ in a radius of __just under two metres__ around the __RFID antenna__. As someone walks the red carpet, the tags are scanned, and whatever the scanner's picked up is __locked in__ when the __sensor on the bottom step__ is trodden on. This means that:
  * if __any other tags__, besides those in the board being held by the current sitter, are __inside the two-meter radius__ at the time the step sensor is trodden on, they will confuse the reader,
  * if the __step sensor__ is not trodden on, the reader may not freeze correctly, causing an unpredictable read of the tags.
-
-## The ideal sequence of a sitting
-* Someone picks their title and assembles a board from a __noun__, __adjective__ and __place__.
-* That someone __walks the red carpet__, holding their board up __nice and straight__, in __clear view__ of the throne's backrest.
-* They __continue to hold up their board__ as their __foot hits the bottom step__ of the dias.
-* They __sit down nice and heavily__ on the seat sensor, squishing the black flat plastic pad and __triggering an announcement__.
-* Dramatic announcement rings out around the room. All words have been correctly read. Delight, rejoicing, and applause.
 
 ## Block diagram
 ![Block diagram image](throne-block-diagram.png)
