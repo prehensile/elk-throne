@@ -26,3 +26,7 @@
 * They __continue to hold up their board__ as their __foot hits the bottom step__ of the dias.
 * They __sit down nice and heavily__ on the seat sensor, squishing the black flat plastic pad and __triggering an announcement__.
 * Dramatic announcement rings out around the room. All words have been correctly read. Delight, rejoicing, and applause.
+
+## Block diagram
+![Block diagram image](throne-block-diagram.png)
+
