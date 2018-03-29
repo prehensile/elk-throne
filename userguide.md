@@ -1,5 +1,7 @@
 # The Talking Throne: A User Guide
 
+Jessica.Corfield@storymuseum.org.uk
+
 ## The ideal sequence of a sitting
 * Someone picks their title and assembles a board from a __noun__, __adjective__ and __place__.
 * That someone __walks the red carpet__, holding their board up __nice and straight__, in __clear view__ of the throne's backrest.
@@ -26,6 +28,8 @@
 ⚠️ While no-one is sitting in the throne, it's __scanning for tags__ in a radius of __just under two metres__ around the __RFID antenna__. As someone walks the red carpet, the tags are scanned, and whatever the scanner's picked up is __locked in__ when the __sensor on the bottom step__ is trodden on. This means that:
  * if __any other tags__, besides those in the board being held by the current sitter, are __inside the two-meter radius__ at the time the step sensor is trodden on, they will confuse the reader,
  * if the __step sensor__ is not trodden on, the reader may not freeze correctly, causing an unpredictable read of the tags.
+
+⚠️ __If it goes haywire__ don't worry. The system has various timeouts - if you leave the throne alone for a couple of minutes (with no tags in its reading field), it should recover. Turning it off and on again should also reset it to a sensible state.
 
 ## Block diagram
 ![Block diagram image](throne-block-diagram.png)
