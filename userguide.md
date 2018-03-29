@@ -1,7 +1,5 @@
 # The Talking Throne: A User Guide
 
-Jessica.Corfield@storymuseum.org.uk
-
 ## The ideal sequence of a sitting
 * Someone picks their title and assembles a board from a __noun__, __adjective__ and __place__.
 * That someone __walks the red carpet__, holding their board up __nice and straight__, in __clear view__ of the throne's backrest.
